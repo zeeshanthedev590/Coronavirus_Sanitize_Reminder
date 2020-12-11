@@ -1,6 +1,4 @@
 from plyer import notification
-import requests
-from bs4 import BeautifulSoup
 import time
 
 
@@ -8,7 +6,7 @@ def notifyme(title, message):
     notification.notify(
         title=title,
         message=message,
-        app_icon='D:\My Projects\Python Projects\Coronavirus_Desktop_Notification\img.ico',
+        app_icon='G:\My Projects\Python Projects\Coronavirus_Desktop_Notification\img.ico',
         timeout=15
 
     )
